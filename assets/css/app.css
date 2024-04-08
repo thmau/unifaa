@@ -1,0 +1,147 @@
+/* Personalização da Página */
+body {
+  position: relative;
+  background: #0F8A42;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  cursor: pointer;
+}
+
+.both {
+  clear: both;
+}
+
+.dropdown-toggle::after {
+  display:none;
+}
+
+.logotipo {
+  width: 300px;
+  height: 64px;
+  display: block;
+  margin: 40px auto;
+}
+
+.grid h1 {
+  color: #FFF;
+}
+
+.group-button {
+  margin-top: 10px;
+}
+
+.grid {
+  margin-bottom: 40px;
+}
+
+.grid-item {
+  float: left;
+  width: 31.7%;
+  background: #FFF;
+  padding: 30px 15px;
+  position: relative;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.grid-item:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+.grid-empty {
+  color: #FFF;
+  padding: 30px;
+  margin: auto;
+  display: block;
+  font-size: 20px;
+  max-width: 500px;
+  font-weight: 500;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.grid-empty .eva {
+  font-size: 100px;
+  display: block;
+}
+
+.thumb {
+  margin: auto;
+  width: 200px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.info {
+  text-align: center;
+}
+
+.title {
+  height: 70px;
+  display: flex;
+  color: #0F8A42;
+  padding: 0 40px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+
+.title span {
+  margin: auto;
+}
+
+.qntd {
+  color: #EEB71F;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px 25px;
+  border-radius: 100px;
+  display: inline-block;
+  border: 2px solid #EEB71F;
+}
+
+.description {
+  height: 70px;
+  margin-top: 10px;
+  overflow-y: hidden;
+}
+
+.price {
+  color: #0F8A42;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.buttons .dropdown {
+  top: 20px;
+  right: 10px;
+  position: absolute;
+}
+
+.register {
+  color: #666;
+  display: block;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  color: #FFF;
+  margin: auto;
+  padding: 30px;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  background: #005422;
+}
